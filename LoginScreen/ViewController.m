@@ -65,6 +65,7 @@
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
+    textField.text = @"";
     textField.layer.borderColor = [UIColor colorNamed:@"Black Coral"].CGColor;
 }
 
